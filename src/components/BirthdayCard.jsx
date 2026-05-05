@@ -30,7 +30,6 @@ const BirthdayCard = () => {
       {/* الخلفية المتحركة */}
       <div className="stars"></div>
       
-      القلب الرئيسي
       {/* <div className={`main-heart ${animationStep >= 1 ? 'animate' : ''}`}>
         💖
       </div> */}
@@ -50,27 +49,27 @@ const BirthdayCard = () => {
       <div className={`card ${animationStep >= 2 ? 'slide-in' : ''}`}>
         <div className="card-header">
           <div className="tooth-emoji">🦷✨</div>
-          <h1>عيد ميلاد سعيد يا دكتورة قلبي! 🦷💕</h1>
+          <h1>Happy birthday, my dear doctor! 🦷💕</h1>
         </div>
 
         <div className="card-body">
           <p className="romantic-text">
-            كل سنةوانتي طيبة يا أجمل دكتورة في الدنيا🌟<br/>
-            أنتِ لستِ مجرد طبيبة أسنان،<br/>
-            بل اجمل شيء في الحياة✨🦷
+            Every year with you is a blessing, my dearest doctor! 🌟<br/>
+            You are not just a dentist,<br/>
+            but the most beautiful thing in life✨🦷
           </p>
           
           <div className="special-message">
             <div className="tooth-icon">🦷</div>
             <p>
-               يارب كل السنين في صحة و عافية ياست البنات😍<br/>
+               I hope all your dreams come true this year! 🎂<br/>
                💖
             </p>
             <div className="tooth-icon">🦷</div>
           </div>
 
           <div className="wishes">
-            <span>🎂 كل سنة وأنتِ طيبة 🎉</span>
+            <span>🎂 Happy birthday!🎉</span>
             {/* <span>💝 من قلب يدق لكِ بقوة 💝</span> */}
           </div>
         </div>

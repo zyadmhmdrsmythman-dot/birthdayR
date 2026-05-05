@@ -14,7 +14,7 @@ function App() {
       setIsLoggedIn(true);
       setTimeout(() => setShowCard(true), 1000); // تأخير للتأثير
     } else {
-      alert('❌ تاريخ الميلاد غير صحيح! حاول مرة أخرى 😊');
+      alert('Incorrect birthday! Try again 😊');
     }
   };
 
@@ -26,8 +26,8 @@ function App() {
     return (
       <div className="loading-screen">
         <div className="loading-heart">💖</div>
-        <h2>جاري التحميل... 🎉</h2>
-        <p>عيد ميلاد سعيد يا راوية! 🦷✨</p>
+        <h2>Dowenload... 🎉</h2>
+        <p>Happy Birthday my Doctor! 🦷✨</p>
       </div>
     );
   }
