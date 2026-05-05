@@ -17,14 +17,14 @@ const LoginScreen = ({ onLogin }) => {
       <div className="login-card">
         <div className="login-header">
           <div className="tooth-icon">🦷</div>
-          <h1>🎂 عيد ميلاد سعيد 🎂</h1>
-          <p>أدخل تاريخ ميلادك للمتابعة</p>
+          <h1>🎂 Happy Birthday 🎂</h1>
+          <p>Enter your birthday to continue</p>
         </div>
 
         <form onSubmit={handleSubmit} className="login-form">
           <div className="date-inputs">
             <div className="input-group">
-              <label>اليوم</label>
+              <label>Day</label>
               <input
                 type="number"
                 min="1"
@@ -39,7 +39,7 @@ const LoginScreen = ({ onLogin }) => {
             <span className="slash">/</span>
 
             <div className="input-group">
-              <label>الشهر</label>
+              <label>Month</label>
               <input
                 type="number"
                 min="1"
